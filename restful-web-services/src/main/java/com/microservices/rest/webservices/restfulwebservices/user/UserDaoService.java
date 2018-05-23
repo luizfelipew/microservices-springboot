@@ -36,7 +36,7 @@ public class UserDaoService {
             if (user.getId() == id){
                 return user;
             }
-            return null;
         }
+        return null;
     }
 }
