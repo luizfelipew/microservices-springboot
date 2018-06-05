@@ -1,6 +1,5 @@
 package com.microservices.rest.webservices.restfulwebservices;
 
-import io.swagger.annotations.SwaggerDefinition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.spi.DocumentationType;
