@@ -29,7 +29,8 @@ public class CurrencyConversionController {
             final CurrencyConversionBean response = responseEntity.getBody();
 
 //            return new CurrencyConversionBean(1L, from, to, BigDecimal.ONE, quantity, quantity, 0);
-            return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMutiple(), quantity,
-                    quantity.multiply(response.getConversionMutiple()), response.getPort());
+            return new CurrencyConversionBean(response.getId(), from, to, response.getConversionMultiple(), quantity,
+                    quantity.multiply(response.getConversionMultiple()), response.getPort());
+
     }
 }

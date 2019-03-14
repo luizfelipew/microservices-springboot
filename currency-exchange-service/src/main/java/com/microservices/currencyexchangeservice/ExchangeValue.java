@@ -25,7 +25,7 @@ public class ExchangeValue {
     public ExchangeValue() {
     }
 
-    public ExchangeValue(Long id, String from, String to, BigDecimal convertionMultiple) {
+    public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
         this.id = id;
         this.from = from;
         this.to = to;
